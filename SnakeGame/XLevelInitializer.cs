@@ -39,7 +39,7 @@ namespace SnakeGame
             };
             board.AddShape(food);
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 40; i++)
             {
                 food = (Food)food.Clone(random.Next(10, (int)board.Width), random.Next(10, (int)board.Height));
                 board.AddShape(food);
